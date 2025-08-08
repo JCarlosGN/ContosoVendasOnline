@@ -37,16 +37,77 @@ O que foi feito: Foram implementados filtros dinâmicos que se escondem através
 
 ## Explicação Resumida das para o Portfolio
 <img align="right" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Relacionamento%20Tabelas.JPG?raw=true">
-Relacionamento das tabelas:  Ela mostra como a tabela central de fatos (FactOnlineSales) está conectada às tabelas de dimensão de produto, cliente e tempo, garantindo a integridade dos dados e o funcionamento correto de todas as análises.<br><br>
-<br><br>
+Relacionamento das tabelas:  Ela mostra como a tabela central de fatos (FactOnlineSales) está conectada às tabelas de dimensão de produto, cliente e tempo, garantindo a integridade dos dados e o funcionamento correto de todas as análises.<br><br><br><br><br><br>
+
+#
 
 
-
-<img align="left" width="200"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Medidas_Criadas.JPG?raw=true">
+<img align="left" width="100"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Medidas_Criadas.JPG?raw=true">
 Criação de medidas DAX: As medidas são fórmulas de cálculo dinâmicas em que os resultados mudam dependendo do contexto. gerando suporte à combinação e filtragem de dados de modelo usando vários atributos
+<br><br><br><br><br><br>
+
+#
+
+<img align="right" width="300"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/TabelaCriada_Dimens%C3%A3o_de_Tempo.JPG?raw=true">
+Criação da tabela Dim_Calendario: teve como objetivo fundamental centralizar e padronizar todas as informações relacionadas a tempo em um único lugar.
+
+Os principais motivos para a sua criação foram:
+Simplificar a Análise Temporal: A tabela fornece colunas pré-calculadas como Ano, Mês, Trimestre e Nome do Mês, o que facilita a criação de gráficos de tendência, como o de Vendas Online | Custo Produtos | Margem Bruta no dashboard principal.
+<br><br><br><br><br><br>
+
+#
+
+
+<img align="left" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Cards.JPG?raw=true">
+Os cartões (cards): localizados na parte superior do dashboard têm o objetivo de fornecer um resumo instantâneo e de alto nível do desempenho do negócio. De forma resumida, eles:
+- Apresentam os KPIs principais: Exibem o valor total das cinco métricas mais importantes do e-commerce: Vendas Online, Margem Bruta, Quantidade Vendida, Custo Produtos e Valor Médio do Pedido.<br>
+- Contextualizam o Desempenho: Além do valor absoluto, a maioria dos cartões inclui a variação percentual anual (YoY), permitindo ao usuário saber rapidamente se o desempenho está crescendo ou diminuindo em relação ao ano anterior.
+<br><br><br><br><br><br>
+
+#
+
+<img align="right" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Imagem_01.JPG?raw=true">
+
+- Variação YoY vendas por categoria: Este é um gráfico de barras que tem como objetivo principal mostrar o crescimento percentual do faturamento de cada categoria de produtos em relação ao mesmo período do ano anterior. Ele permite identificar rapidamente quais categorias estão se expandindo de forma mais acelerada e onde o negócio está obtendo o maior crescimento de vendas ano após ano.<br>
+
+- Categorias: Este gráfico de colunas agrupadas tem a função de detalhar o desempenho absoluto de cada categoria. Ele mostra, lado a lado, o total de Vendas Online e a Margem Bruta por categoria de produto. O visual é crucial para entender não apenas quais categorias vendem mais, mas também quais são as mais rentáveis, permitindo focar os esforços em produtos com maior margem.<br>
+
+- TOP 5 produtos mais vendidos: Este gráfico de barras é focado em um nível mais granular, identificando os produtos individuais que mais contribuíram para a receita total. Ele lista os cinco produtos com o maior volume de vendas, permitindo que a gestão identifique rapidamente os best-sellers do e-commerce.
+<br><br><br><br><br><br>
+
+#
+
+<img align="left" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Imagem_02.JPG?raw=true">
+
+- No Discount | Seasonal Discount: Objetivo de analisar o impacto das promoções nas vendas. Ele compara, mês a mês, o total de vendas realizadas Sem Desconto com as vendas feitas durante uma Promoção Sazonal. Permite identificar o efeito das campanhas promocionais na receita e se elas estão sendo eficazes em impulsionar as vendas.<br>
+
+- Vendas Online | Custo Produtos | Margem Bruta: Mostra a tendência temporal das três métricas financeiras mais importantes do projeto. Ele permite visualizar a evolução mensal de Vendas Online. O objetivo é entender a relação entre essas métricas, como os custos se comportam em relação às vendas e como a margem de lucro varia ao longo do ano.<br>
+<br><br><br><br><br><br>
+
+#
+
+<img align="right" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Intera%C3%A7%C3%A3o.JPG?raw=true">
+
+- Filtros de Interação: O dashboard possui um painel de filtros que pode ser exibido ou ocultado, contendo opções de segmentação de dados como Ano - Mês, Categoria do Produto e Promoção (NOME - TIPO).<br>
+
+- Botões de Ação: A funcionalidade de mostrar/esconder o painel de filtros é controlada por botões. O botão de "abrir menu" (ícone de três barras) exibe o painel de filtros, e o botão de "voltar" (ícone de seta) o esconde, mantendo a tela principal limpa e livre de informações desnecessárias.<br>
+<br><br><br><br><br><br>
+
+#
+
+<img align="left" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Contoso%20E-Commerce.JPG?raw=true">
+
+Esta é a visão geral do dashboard final. Ela mostra os principais KPIs de negócio no topo (Vendas Online, Margem Bruta, etc.) e os gráficos que detalham o desempenho por categoria, variação anual, promoções e tendências temporais.<br>
+O projeto visa monitorar os principais indicadores de desempenho (KPIs), como Vendas Online, Margem Bruta e Variação YoY, e permitir uma exploração profunda dos dados através de filtros e tooltips personalizadas. A meta final é capacitar a tomada de decisões estratégicas sobre o desempenho de vendas, lucratividade, categorias de produtos e o impacto das promoções.
+<br><br><br><br><br><br>
+
+#
+
+# Resumo do Projeto
+Este projeto foi desenvolvido com o objetivo de demonstrar habilidades em Business Intelligence, utilizando o Power BI. Todos os dados e análises são baseados no conjunto de dados fictício da Contoso
+<br><br><br><br><br><br>
+
+#
 
 # Ferramenta utilizada:
 Power BI
-<br>
-
-##
