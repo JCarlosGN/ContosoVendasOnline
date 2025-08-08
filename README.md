@@ -1,5 +1,5 @@
 # Análise vendas online empresa Contoso
-Utilizado a base de dados ContosoretailDW, é um banco de dados de data warehouse de exemplo, criado pela Microsoft para demonstração e aprendizado. Ele simula um cenário de varejo, contendo dados de uma empresa fictícia chamada Contoso, que vende produtos em diversas lojas ao redor do mundo.
+Utilizado a base de dados ContosorRetailDW, é um banco de dados de data warehouse, criado pela Microsoft para demonstração e aprendizado. Ele simula um cenário de varejo, contendo dados de uma empresa fictícia chamada Contoso, que vende produtos em diversas lojas ao redor do mundo.
 
 <br>
 
@@ -68,11 +68,11 @@ Os cartões (cards): localizados na parte superior do dashboard têm o objetivo 
 
 <img align="right" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Imagem_01.JPG?raw=true">
 
-- Variação YoY vendas por categoria: Este é um gráfico de barras que tem como objetivo principal mostrar o crescimento percentual do faturamento de cada categoria de produtos em relação ao mesmo período do ano anterior. Ele permite identificar rapidamente quais categorias estão se expandindo de forma mais acelerada e onde o negócio está obtendo o maior crescimento de vendas ano após ano.<br>
+- Variação YoY vendas por categoria: Objetivo principal mostrar o crescimento percentual do faturamento de cada categoria de produtos em relação ao mesmo período do ano anterior. Ele permite identificar rapidamente quais categorias estão se expandindo de forma mais acelerada e onde o negócio está obtendo o maior crescimento de vendas ano após ano.<br>
 
-- Categorias: Este gráfico de colunas agrupadas tem a função de detalhar o desempenho absoluto de cada categoria. Ele mostra, lado a lado, o total de Vendas Online e a Margem Bruta por categoria de produto. O visual é crucial para entender não apenas quais categorias vendem mais, mas também quais são as mais rentáveis, permitindo focar os esforços em produtos com maior margem.<br>
+- Categorias: Função de detalhar o desempenho absoluto de cada categoria. Ele mostra, lado a lado, o total de Vendas Online e a Margem Bruta por categoria de produto. O visual é crucial para entender não apenas quais categorias vendem mais, mas também quais são as mais rentáveis, permitindo focar os esforços em produtos com maior margem.<br>
 
-- TOP 5 produtos mais vendidos: Este gráfico de barras é focado em um nível mais granular, identificando os produtos individuais que mais contribuíram para a receita total. Ele lista os cinco produtos com o maior volume de vendas, permitindo que a gestão identifique rapidamente os best-sellers do e-commerce.
+- TOP 5 produtos mais vendidos: Focado em um nível mais granular, identificando os produtos individuais que mais contribuíram para a receita total. Ele lista os cinco produtos com o maior volume de vendas, permitindo que a gestão identifique rapidamente os best-sellers do e-commerce.
 <br><br><br><br><br><br>
 
 #
