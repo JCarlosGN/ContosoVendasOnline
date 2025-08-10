@@ -1,10 +1,14 @@
 # Análise vendas online empresa Contoso
 Utilizado a base de dados ContosorRetailDW, é um banco de dados de data warehouse, criado pela Microsoft para demonstração e aprendizado. Ele simula um cenário de varejo, contendo dados de uma empresa fictícia chamada Contoso, que vende produtos em diversas lojas ao redor do mundo.
+<br><br>
 
-<br>
+#
 
 ## Sobre o Projeto Desenvolvido
 Objetivo de monitorar e analisar o desempenho de vendas de uma empresa fictícia, a Contoso. O foco principal foi traduzir dados brutos em insights acionáveis, utilizando o Power BI para construir uma interface intuitiva e interativa.
+<br><br>
+
+#
 
 ## Principais Respostas que o Projeto Responde
 O dashboard foi construído para responder a perguntas-chave de negócio, como:<br>
@@ -15,6 +19,9 @@ O dashboard foi construído para responder a perguntas-chave de negócio, como:<
 - Melhores Produtos e Categorias: Quais são os Top 5 Produtos Mais Vendidos e quais categorias de produtos têm a maior receita e margem de lucro.<br>
 - Impacto de Promoções: Qual é a diferença no desempenho de vendas em meses com Seasonal Discount versus meses sem desconto (No Discount).<br>
 - Detalhes de Vendas: Ao selecionar um mês ou uma categoria, quais são os KPIs de vendas para esse período ou categoria específica, e quais produtos se destacaram.<br>
+<br><br>
+
+#
 
 ## Cronograma da Criação do Projeto
 O projeto foi dividido em etapas lógicas, desde a modelagem dos dados até a finalização do dashboard interativo.
@@ -34,6 +41,9 @@ O que foi feito: O dashboard foi projetado com um tema escuro e uma paleta de co
 - Etapa de Interatividade e Funcionalidades Avançadas:
 O que foi feito: Foram implementados filtros dinâmicos que se escondem através de um menu de botões, e two tooltips personalizadas foram criadas e aplicadas a visuais específicos. A primeira tooltip é um sumário de KPIs com um gráfico temporal, e a segunda é um sumário de KPIs com uma desagregação por categorias.<br>
  Por que foi feito: Essa interatividade permite que o usuário explore os dados de forma aprofundada, respondendo a perguntas específicas sem sobrecarregar a visualização principal.<br>
+<br><br>
+
+#
 
 ## Explicação Resumida das para o Portfolio
 <img align="right" width="500"  src="https://github.com/JCarlosGN/ContosoVendasOnline/blob/main/Imagens/Relacionamento%20Tabelas.JPG?raw=true">
@@ -99,13 +109,23 @@ Os cartões (cards): localizados na parte superior do dashboard têm o objetivo 
 
 Esta é a visão geral do dashboard final. Ela mostra os principais KPIs de negócio no topo (Vendas Online, Margem Bruta, etc.) e os gráficos que detalham o desempenho por categoria, variação anual, promoções e tendências temporais.<br>
 O projeto visa monitorar os principais indicadores de desempenho (KPIs), como Vendas Online, Margem Bruta e Variação YoY, e permitir uma exploração profunda dos dados através de filtros e tooltips personalizadas. A meta final é capacitar a tomada de decisões estratégicas sobre o desempenho de vendas, lucratividade, categorias de produtos e o impacto das promoções.
-<br><br><br><br><br><br>
+<br><br>
 
 #
 
-# Resumo do Projeto
+# Interpretação dos Dados
+A análise descritiva revelou um cenário de forte crescimento para a Contoso, com Vendas Online e Margem Bruta apresentando uma expansão sólida ano a ano. Foi possível identificar que o crescimento é impulsionado principalmente por categorias como Home Appliances e Computers, enquanto categorias como Games and Audio e Cell phones mostram taxas de crescimento anuais ainda mais elevadas. A análise também destacou o impacto direto das promoções nas vendas e a tendência de custos e receitas ao longo do ano.
 Este projeto foi desenvolvido com o objetivo de demonstrar habilidades em Business Intelligence, utilizando o Power BI. Todos os dados e análises são baseados no conjunto de dados fictício da Contoso
-<br><br><br><br><br><br>
+<br><br>
+
+#
+
+# Valor Gerado
+O valor central da análise é que ela transforma dados em insights estratégicos para a tomada de decisões:<br>
+- Otimização de Estratégias: O dashboard permite que a gestão direcione investimentos para categorias com alto potencial de crescimento e avalie a eficácia de campanhas de promoção.<br>
+- Avaliação de Desempenho: A comparação YoY fornece um benchmark claro para medir o sucesso, permitindo que a equipe entenda se a empresa está no caminho certo para atingir suas metas.<br>
+- Eficiência Operacional: Ao visualizar a relação entre Custo Produtos, Vendas Online e Margem Bruta, o projeto oferece a base para otimizar operações e melhorar a rentabilidade.
+<br><br>
 
 #
 
